@@ -1,0 +1,23 @@
+#contact{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    dl{
+        background: $contactBg;
+        color: $contactTxt;
+        padding: 40px;
+        @include dropShadow(5px, 5px, $contactShadowCol);
+        dd{
+            font-size: $contactDDSize;
+        }
+        dt{
+            font-size: $contactDTSize;
+            text-decoration: underline;
+            margin-bottom: 10px;
+            &:nth-of-type(2){
+                /*put a margin on the top of 60px*/
+                margin-top:60px;
+            }
+        }
+    }
+}

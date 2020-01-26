@@ -1,0 +1,28 @@
+/*set a common width for all product lists*/
+.products{
+    list-style: none;
+    width: 90%;
+    margin: 0 auto;
+    font-size: $productsFontSize;
+    li{
+        border: 1px solid $productsLIBorder;
+        background-color: $productsLIBg;
+        margin-bottom: 5px;
+        height: 100px;
+        div{
+            padding-left: 10px;
+            button{
+                font-size: $productsBtnFontSize;
+                margin-top: 10px;
+                padding: 5px;
+            }
+        }
+        img{
+            width: 100px;
+            height: 100px;
+            min-width: 100px;
+            background-color: $productsImgBg;
+            color: $productsImgFontCol;
+        }
+    }
+}

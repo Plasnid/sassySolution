@@ -1,0 +1,21 @@
+.cta{
+    display: flex;
+    list-style:none;
+    justify-content: space-around;
+    li{
+        width: 25%;
+        background-color:$ctaBg;
+        padding:10px;
+        a{
+            text-decoration: none;
+            font-size: $ctaLinkSize;
+            font-weight: bold;
+            img{
+                display: block;
+                border: 1px solid $ctaImgBorder;
+                width: 100%;
+                height: 150px;
+            }
+        }
+    }
+}
